@@ -1,3 +1,29 @@
 div {
     border: 1px solid black;
 }
+#navFlex {
+	display: flex;
+	justify-content: center;
+}
+#navFlex li {
+	margin: 0 1vh;
+}
+#navFlex li a{
+	color: aquamarine;
+}
+#footerNavFlex {
+	display: flex;
+	justify-content: center;
+}
+#footerNavFlex li {
+	margin: 0 1vh;
+}
+#footerNavFlex li a{
+	color: black;
+}
+/* nav a {
+	font-weight: 600;
+	letter-spacing: 0.75px;
+	display: inline-block;
+	text-transform: uppercase;
+} */
