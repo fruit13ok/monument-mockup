@@ -6,6 +6,7 @@
     <title>Monument Blog Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:600" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -15,43 +16,40 @@
 
 <body>
 
-    <header>
-        <div class="row">
-            <div class="col-md-12">
-                <nav>
-                    <ul id="navFlex">
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Gallry</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+    <header class="fontRaleway">
+        <nav >
+            <ul id="navFlex">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Gallry</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
+
     <div class="row">
         <section id="headerBackgroundImg">
-            <h1>Monument</h1>
+            <h1 class="fontRaleway">Monument</h1>
         </section>
     </div>
 
-    <div class="container" align="center">
+    <div class="container alignCenter">
         <div class="row">
             <div class="col-md-12">
-                <div class="textAlignLeft">
-                    <article>
-                        <h4>11/23/2016</h4>
-                        <h3>A VISUAL GUIDE TO THE SOUTHWEST</h3>
-                        <img src="./images/blog_1.jpg">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius soluta incidunt, eum quos consequuntur
+                <div class="mainContentFlex">
+                    <article class="textAlignLeft visualGuideArticle">
+                        <h4 class="fontRaleway">11/23/2016</h4>
+                        <h3 class="fontRaleway">A VISUAL GUIDE TO THE SOUTHWEST</h3>
+                        <img src="./images/blog_1.jpg" alt="blog_1 image">
+                        <p class="fontLato">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius soluta incidunt, eum quos consequuntur
                             aliquam nobis velit mollitia iste, natus ex repellendus delectus quisquam et quae, in atque a.
                             Perspiciatis excepturi ipsum temporibus, eius odit deleniti quasi voluptates eaque aliquam, iste
                             consequatur repudiandae illo a. Voluptates eligendi reiciendis corporis itaque soluta fugit atque
@@ -62,8 +60,8 @@
                             animi in. Exercitationem distinctio necessitatibus molestias quas laboriosam nam modi porro accusantium
                             blanditiis, beatae incidunt aliquid nostrum laborum, magni cum recusandae autem doloremque qui
                             perferendis iste non quaerat fugit. Aspernatur voluptatem impedit, enim!</p>
-                        <img src="./images/blog_2.jpg">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius soluta incidunt, eum quos consequuntur
+                        <img src="./images/blog_2.jpg" alt="blog_2 image">
+                        <p class="fontLato">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius soluta incidunt, eum quos consequuntur
                             aliquam nobis velit mollitia iste, natus ex repellendus delectus quisquam et quae, in atque a.
                             Perspiciatis excepturi ipsum temporibus, eius odit deleniti quasi voluptates eaque aliquam, iste
                             consequatur repudiandae illo a. Voluptates eligendi reiciendis corporis itaque soluta fugit atque
@@ -75,16 +73,16 @@
                             blanditiis, beatae incidunt aliquid nostrum laborum, magni cum recusandae autem doloremque qui
                             perferendis iste non quaerat fugit. Aspernatur voluptatem impedit, enim!</p>
                     </article>
-                    <article>
-                        <h4>ABOUT US</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat illo sunt quasi incidunt veniam
+                    <article class="textAlignLeft aboutMeArticle">
+                        <h4 class="fontRaleway">ABOUT US</h4>
+                        <p class="fontLato">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat illo sunt quasi incidunt veniam
                             cumque minus totam rem ea vel ut eius, accusamus, doloribus dolore at ipsum quaerat molestias.</p>
-                        <p>Explicabo consectetur tempora perferendis voluptas itaque, corporis at ipsum quisquam eveniet, facilis
+                        <p class="fontLato">Explicabo consectetur tempora perferendis voluptas itaque, corporis at ipsum quisquam eveniet, facilis
                             perspiciatis. Eum ad adipisci, earum fugit perspiciatis deserunt veniam eos? Impedit expedita
                             assumenda, saepe excepturi ad voluptatibus. Eveniet.</p>
-                        <img class="aboutImg" src="./images/about.jpg">
-                        <h4>Recent Issues</h4>
-                        <ul>
+                        <img class="aboutImg" src="./images/about.jpg" alt="about image">
+                        <h4 class="fontRaleway">Recent Issues</h4>
+                        <ul class="fontLato">
                             <li>
                                 <a href="#">Issue Nineteen — Camping</a>
                             </li>
@@ -130,7 +128,11 @@
                 </li>
             </ul>
         </nav>
-        <p>&copy;2016 Sarah Holden</p>
+        <div class="footerInput class="fontRaleway"">
+            <input type="text" placeholder="Email Address">
+            <button type="submit">Keep in Touch</button>
+        </div>
+        <p class="fontLato">&copy;2016 Sarah Holden</p>
     </footer>
 </body>
 
